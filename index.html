@@ -3,41 +3,27 @@
 
 <head>
     <meta charset="utf-8" />
-    
+
     <!--favicon for all-->
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/fav/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/fav/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/fav/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/fav/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/fav/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/fav/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/fav/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/fav/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/fav/android-icon-192x192.png">
+    <link rel="shortcut icon" href="/assets/fav/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/fav/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/fav/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/fav/favicon-16x16.png">
-    <link rel="manifest" href="/assets/fav/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/assets/fav/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!--favicon for all-->
-    
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="language" content="English">
     <meta name="author" content="Aswin A V, Faisal Rasak, Creative Tim">
     <meta name="keywords" content="trysquare.net, trysquare, Trysquare Engineers & Builders, Trysquare Engineers, Trysquare Builders, Trysquare Constructions, Engineers in Kochi, Construction companies in kochi, build home, dream home">
     <meta name="description" content="We provide Planning, Structural Designing, Architectural Designs, Approval Drawings, Project Management, Site Supervision services for both residential and commercial projects.  " />
     <meta name="robots" content="index, follow" />
-    
+
     <meta property="og:image" content="assets/img/og.png" />
     <meta property="og:title" content="Trysquare Engineers & Builders" />
     <meta property="og:url" content="https://trysquare.net/" />
     <meta property="og:description" content="We provide Planning, Structural Designing, Architectural Designs, Approval Drawings, Project Management, Site Supervision services for both residential and commercial projects">
     <meta property="og:type" content="website" />
-   
-   
+
+
     <title>Trysquare Engineers &amp; Builders</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
@@ -45,8 +31,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- CSS Files -->
     <link href="./assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="./assets/demo/demo.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="./assets/js/pswipe/photoswipe.css">
     <link rel="stylesheet" href="./assets/js/pswipe/default-skin/default-skin.css">
@@ -59,6 +43,41 @@
     <![endif]-->
 
     <style>
+        /*Sprites for feature icons*/
+        .sprite {
+            background-image: url(assets/img/feat-icons.png);
+            background-repeat: no-repeat;
+            display: block;
+            width: 128px;
+            height: 128px;
+            margin: auto;
+        }
+
+        .sprite-ic_arch {
+        background-position: -5px -5px;
+        }
+
+        .sprite-ic_construct {
+        background-position: -143px -5px;
+        }
+
+        .sprite-ic_env {
+        background-position: -5px -143px;
+        }
+
+        .sprite-ic_estimate {
+        background-position: -143px -143px;
+        }
+
+        .sprite-ic_projmgmnt {
+        background-position: -281px -5px;
+        }
+
+        .sprite-ic_struct {
+        background-position: -281px -143px;
+        }
+        /*End of Sprites for feature icons*/
+        
         .justified{
             text-align: justify;
         }
@@ -187,7 +206,7 @@
             </div>
         </div>
     </nav>
-    <div class="page-header header-filter" data-parallax="true" style="background-image: url('./assets/img/slide1.jpg');">
+    <div class="page-header header-filter" data-parallax="true" style="background-image: url('./assets/img/slide1_c.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -200,16 +219,6 @@
                 </div>
             </div>
         </div>
-        <!--<div class="container">
-            <div class="row">
-                <div class="col-md-8 ml-auto mr-auto">
-                    <div class="brand">
-                        <h1>TrySquare</h1>
-                        <h3>Creating the Future of Architecture</h3>
-                    </div>
-                </div>
-            </div>
-        </div>-->
     </div>
     <div class="main main-raised">
         <div class="container">
@@ -219,14 +228,14 @@
                     <div class="row text-center">
                         <div class="col-md-8 ml-auto mr-auto">
                             <div class="col-md-4 ml-auto mr-auto">
-                                <img src="./assets/img/trysquare_logo_512_trans.png" alt="Raised Image" class="img-raised rounded img-fluid" style="padding: 16px; background: rgba(216, 216, 216, 0.12);">
+                                <img src="./assets/img/trysquare_logo_512_cmp.png" alt="Raised Image" class="img-raised rounded img-fluid" style="padding: 16px; background: rgba(216, 216, 216, 0.12);">
                             </div>
                             <h1>About Us</h1>
                             <h4>One of the unique Engineering Consultants in Structural design, supervision and project management in Kerala. A diversified portfolio which covers a number of successful developments,
                                 in residential buildings and villas, commercial buildings, institutional facilities, hospitals, resorts and industrial projects.
                             </h4>
                             <div class="col-sm-12 col-md-8 mr-auto ml-auto">
-                                <img src="assets/img/arch-opt-2x.png" class="rounded" width="100%">
+                                <img src="assets/img/arch-1x.png" class="rounded" width="100%">
                             </div>
                             <h2>Our Mission</h2>
                             <h4>
@@ -262,8 +271,8 @@
                         <div class="col-md-4">
                             <div class="info">
                                 <div class="icon icon-info">
-                                    <img width="128px" src="assets/img/ic_struct.png" />
-                                    <!--                          <i class="material-icons">chat</i>-->
+                                    <div class="sprite sprite-ic_struct"></div>
+                                    <!--<img width="128px" src="assets/img/ic_struct.png" />-->
                                 </div>
                                 <h4 class="info-title">Structural Engineering</h4>
                                 <p class="justified">Structural engineering is based on the laws of physics and practical knowledge of the structural performance of different building materials.
@@ -274,8 +283,8 @@
                         <div class="col-md-4">
                             <div class="info">
                                 <div class="icon icon-success">
-                                    <img width="128px" src="assets/img/ic_arch.png" />
-                                    <!--                          <i class="material-icons">verified_user</i>-->
+                                   <div class="sprite sprite-ic_arch"></div>
+                                    <!--<img width="128px" src="assets/img/ic_arch.png" />-->
                                 </div>
                                 <h4 class="info-title">Architectural Designing</h4>
                                 <p class="justified">Our clients benefit from our in-depth regional and local knowledge combined with deep experience in architectural design standards and practices.
@@ -285,8 +294,8 @@
                         <div class="col-md-4">
                             <div class="info">
                                 <div class="icon icon-danger">
-                                    <img width="128px" src="assets/img/ic_estimate.png" />
-                                    <!--                          <i class="material-icons">fingerprint</i>-->
+                                   <div class="sprite sprite-ic_estimate"></div>
+                                    <!--<img width="128px" src="assets/img/ic_estimate.png" />-->
                                 </div>
                                 <h4 class="info-title">Estimation &amp; Cost analysis</h4>
                                 <p class="justified">Cost estimating provided by Trysquare comprise of experienced &amp; qualified cost engineers with cost estimating and functional engineering background.</p>
@@ -295,8 +304,8 @@
                         <div class="col-md-4">
                             <div class="info">
                                 <div class="icon icon-danger">
-                                    <!--                          <i class="material-icons">settings</i>-->
-                                    <img width="128px" src="assets/img/ic_construct.png" />
+                                    <div class="sprite sprite-ic_construct"></div>
+                                    <!--<img width="128px" src="assets/img/ic_construct.png" />-->
                                 </div>
                                 <h4 class="info-title">Construction &amp; Supervision</h4>
                                 <p class="justified">We undertake end to end construction, handling all the activities from planning, designing, approvals and execution to finally deliver you the keys to your dream home.</p>
@@ -305,8 +314,8 @@
                         <div class="col-md-4">
                             <div class="info">
                                 <div class="icon icon-danger">
-                                    <img width="128px" src="assets/img/ic_env.png" />
-                                    <!--                          <i class="material-icons">settings</i>-->
+                                    <div class="sprite sprite-ic_env"></div>
+                                    <!--<img width="128px" src="assets/img/ic_env.png" />-->
                                 </div>
                                 <h4 class="info-title">Environment and Sustainability Studies</h4>
                                 <p class="justified">A comprehensive range of coordinated and integrated services which help to meet the challenges in environmental management and protection including: environmental assessment and corporate environmental risk assessment; waste and resources efficiency and sustainability services.</p>
@@ -315,8 +324,8 @@
                         <div class="col-md-4">
                             <div class="info">
                                 <div class="icon icon-danger">
-                                    <img width="128px" src="assets/img/ic_projmgmnt.png" />
-                                    <!--                          <i class="material-icons">settings</i>-->
+                                    <div class="sprite sprite-ic_projmgmnt"></div>
+                                    <!--<img width="128px" src="assets/img/ic_projmgmnt.png" />-->                                    
                                 </div>
                                 <h4 class="info-title">Project Management</h4>
                                 <p class="justified">Our Team plan, execute, and control projects by proactive planning and first-hand knowledge of contract terms, client objectives, responsibilities, and capabilities with monitoring on project budgets to secure contract compliance. We work and coordinate well with builders and authorities on our client’s behalf to maintain the design integrity.</p>
@@ -342,7 +351,7 @@
 
                             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
                                 <a href="#" itemprop="contentUrl" data-size="1024x1024" data-id="0">
-                                    <img src="assets/img/works/work-1.jpg" itemprop="thumbnail" alt="Image description" />
+                                    <img src="assets/img/works/work-1-thumb.jpg" itemprop="thumbnail" alt="Image description" />
                                 </a>
                                 <figcaption itemprop="caption description">Image caption 1</figcaption>
 
@@ -350,21 +359,21 @@
 
                             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
                                 <a href="#" itemprop="contentUrl" data-size="964x1024" data-id="1">
-                                    <img src="assets/img/works/work-2.jpg" itemprop="thumbnail" alt="Image description" />
+                                    <img src="assets/img/works/work-2-thumb.jpg" itemprop="thumbnail" alt="Image description" />
                                 </a>
                                 <figcaption itemprop="caption description">Image caption 2</figcaption>
                             </figure>
 
                             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
                                 <a href="#" itemprop="contentUrl" data-size="1024x683" data-id="2">
-                                    <img src="assets/img/works/work-3.jpg" itemprop="thumbnail" alt="Image description" />
+                                    <img src="assets/img/works/work-3-thumb.jpg" itemprop="thumbnail" alt="Image description" />
                                 </a>
                                 <figcaption itemprop="caption description">Image caption 3</figcaption>
                             </figure>
 
                             <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
                                 <a href="#" itemprop="contentUrl" data-size="1024x768" data-id="3">
-                                    <img src="assets/img/works/work-4.jpg" itemprop="thumbnail" alt="Image description" />
+                                    <img src="assets/img/works/work-4-thumb.jpg" itemprop="thumbnail" alt="Image description" />
                                 </a>
                                 <figcaption itemprop="caption description">Image caption 4</figcaption>
                             </figure>
@@ -446,79 +455,6 @@
 
             <!--END of Our Projects Section-->
 
-            <!-- <div class="section section-projects text-center">
-                <div class="profile-page">
-                    <div class="row">
-                        <div class="col-md-8 ml-auto mr-auto">
-                            <h1>Our Projects</h1>
-                            <h5 class="description">Take a close look at our Challenging projects we have undertaken.</h5>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 ml-auto mr-auto">
-                            <div class="profile-tabs">
-                                <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#home-design" role="tab" data-toggle="tab" aria-selected="false">
-                                            <i class="material-icons">home</i> Home Design
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active show" href="#struct-design" role="tab" data-toggle="tab" aria-selected="true">
-                                            <i class="material-icons">palette</i> Structural Design
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#estimation" role="tab" data-toggle="tab" aria-selected="false">
-                                            <i class="material-icons">menu</i> Estimation
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-content tab-space">
-                        <div class="tab-pane text-center gallery" id="home-design">
-                            <div class="row">
-                                <div class="col-md-4 ml-auto">
-                                    <img src="../assets/img/examples/studio-1.jpg" class="rounded">
-                                    <img src="../assets/img/examples/olu-eletu.jpg" class="rounded">
-                                </div>
-                                <div class="col-md-4 mr-auto">
-                                    <img src="../assets/img/examples/mariya-georgieva.jpg" class="rounded">
-                                    <img src="../assets/img/examples/studio-4.jpg" class="rounded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane text-center gallery active show" id="struct-design">
-                            <div class="row">
-                                <div class="col-md-4 ml-auto">
-                                    <img src="../assets/img/examples/olu-eletu.jpg" class="rounded">
-                                    <img src="../assets/img/examples/clem-onojeghuo.jpg" class="rounded">
-                                </div>
-                                <div class="col-md-4 mr-auto">
-                                    <img src="../assets/img/examples/mariya-georgieva.jpg" class="rounded">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane text-center gallery" id="estimation">
-                            <div class="row">
-                                <div class="col-md-4 ml-auto">
-                                    <img src="../assets/img/examples/mariya-georgieva.jpg" class="rounded">
-                                </div>
-                                <div class="col-md-4 mr-auto">
-                                    <img src="../assets/img/examples/clem-onojeghuo.jpg" class="rounded">
-                                    <img src="../assets/img/examples/olu-eletu.jpg" class="rounded">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-            <!--END of Projects Section-->
-
-
             <!--Start of Our Team Section-->
             <div class="section section-team text-center">
                 <div class="row">
@@ -535,7 +471,8 @@
                             <div class="info">
                                 <div class="profile">
                                     <div class="avatar">
-                                        <img src="assets/img/prof-1.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid" style="max-width: 160px;    width: 100%;    margin: 0 auto;">
+                                       <!--<img src="bg.png" data-src="img1.jpg" /> -->
+                                        <img src="assets/img/prof-temp.png" data-src="assets/img/prof-1.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid" style="max-width: 160px;    width: 100%;    margin: 0 auto;">
                                     </div>
                                 </div>
                                 <div class="name">
@@ -549,7 +486,7 @@
                             <div class="info">
                                 <div class="profile">
                                     <div class="avatar">
-                                        <img src="assets/img/prof-2.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid" style="max-width: 160px;    width: 100%;    margin: 0 auto;">
+                                        <img src="assets/img/prof-temp.png" data-src="assets/img/prof-2.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid" style="max-width: 160px;    width: 100%;    margin: 0 auto;">
                                     </div>
                                 </div>
                                 <div class="name">
@@ -563,7 +500,7 @@
                             <div class="info">
                                 <div class="profile">
                                     <div class="avatar">
-                                        <img src="assets/img/prof-3.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid" style="max-width: 160px;    width: 100%;    margin: 0 auto;">
+                                        <img src="assets/img/prof-temp.png" data-src="assets/img/prof-3.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid" style="max-width: 160px;    width: 100%;    margin: 0 auto;">
                                     </div>
                                 </div>
                                 <div class="name">
@@ -614,9 +551,9 @@
                                         <label class="bmd-label-floating">Your Name</label>
                                         <input name="name" type="text" id="name" class="form-control">
                                         <!-- todo : change redirect url -->
-<!--                                        <input name="_redirect" type="hidden" id="name" value="https://monsterbrain.github.io/trysquare?send=1">-->
+                                        <!--                                        <input name="_redirect" type="hidden" id="name" value="https://monsterbrain.github.io/trysquare?send=1">-->
                                         <input name="_redirect" type="hidden" id="name" value="https://trysquare.net?send=1">
-                                       <!--Test URL-->
+                                        <!--Test URL-->
                                         <!--<input name="_redirect" type="hidden" id="name" value="http://127.0.0.1:49451/index.html?send=1">-->
                                     </div>
                                 </div>
@@ -635,14 +572,11 @@
                             <div class="row">
                                 <div class="col-md-4 ml-auto mr-auto text-center">
                                     <input class="btn btn-primary btn-raised" value="Send Message" type="submit">
-                                    <!-- <button class="btn btn-primary btn-raised">
-                                        Send Message
-                                    </button> -->
                                 </div>
                             </div>
-                            <div class="alert alert-success">
+                            <div class="alert alert-success" style="display: none;">
                                 <div class="container">
-                                  <b>Success :</b> Your message is delivered successfully
+                                    <b>Success :</b> Your message is delivered successfully
                                 </div>
                             </div>
                         </form>
@@ -709,16 +643,11 @@
         </div>
     </footer>
     <!--   Core JS Files   -->
-    <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <!--    <script src="./assets/js/core/jqueryanimate.js" type="text/javascript"></script>-->
     <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
     <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
-    <script src="./assets/js/plugins/moment.min.js"></script>
-    <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
-    <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
-    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-    <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
     <!--  Google Maps Plugin    -->
-    <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>-->
     <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
     <script src="./assets/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
     <script src="./assets/js/pswipe/photoswipe.js"></script>
@@ -769,29 +698,30 @@
             var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
             gallery.init();
         }
+
     </script>
+    
+    <script src="./assets/js/plugins/jquery.unveil.js"></script>
     <script>
         $(document).ready(function() {
-            //init DateTimePickers
-            materialKit.initFormExtendedDatetimepickers();
-            
-            $('#btn-send-resume').click(function(e){
-               e.preventDefault();
+            $('.avatar>img').unveil();
+            $('#btn-send-resume').click(function(e) {
+                e.preventDefault();
                 window.open('https://mail.google.com/mail/u/0/?view=cm&fs=1&to=info@trysquare.net&su=Job%20Application&body=%20&tf=1');
             });
-            
+
             const urlParams = new URLSearchParams(window.location.search);
             const sendParam = urlParams.get('send');
-//            console.log('sendParam='+sendParam);
+            //            console.log('sendParam='+sendParam);
             $('.alert.alert-success').hide();
-            if(sendParam=='1'){
+            if (sendParam == '1') {
                 // show success alert
                 $("html, body").animate({
                     scrollTop: $('.section-contactus').offset().top
                 }, 50);
-                
+
                 $('.alert.alert-success').show();
-                setTimeout(()=>{
+                setTimeout(() => {
                     $('.alert.alert-success').fadeOut();
                 }, 2500);
             }
@@ -842,6 +772,7 @@
                 scrollTop: 0
             }, 1000);
         }
+
     </script>
 </body>
 
